@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="./style.css" rel="stylesheet"/>
+</head>
+<body>
+    <section>
+        <div class="heading">
+            <h2>calculator</h2>
+        </div>
+        <div class="display">
+            <p>0</p>
+        </div>
+        <div class="keypad">
+            <div class="first">
+                <button onclick="getInput(7)">7</button>
+                <button onclick="getInput(8)">8</button>
+                <button onclick="getInput(9)">9</button>
+                <button onclick= "deleteLastDigit()" id="del">DEL</button>
+            </div>
+            <div class="second">
+                <button onclick="getInput(4)">4</button>
+                <button onclick="getInput(5)">5</button>
+                <button onclick="getInput(6)">6</button>
+                <button onclick="getInput('+')">+</button>
+            </div>
+            <div class="third">
+                <button onclick="getInput(1)">1</button>
+                <button onclick="getInput(2)">2</button>
+                <button onclick="getInput(3)">3</button>
+                <button onclick="getInput('-')">-</button>
+            </div>
+            <div class="fourth">
+                <button onclick="getInput('.')">.</button>
+                <button onclick="getInput(0)">0</button>
+                <button onclick="getInput('/')">/</button>
+                <button onclick="getInput('x')">x</button>
+            </div>
+            <div class="fifth">
+                <button onclick="resetAll(0)" id="reset">RESET</button>
+                <button onclick="result()" id="equals">=</button>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>

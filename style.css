@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Inter:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #3B4664;
+}
+section{
+    text-align: center;
+    width: 35%;
+    margin-left: 32vw;
+    margin-top: 10vh;
+}
+h2{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+color: #FFF;
+text-align: left;
+margin-bottom: 4vh;
+}
+button{
+color: #181F32;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-radius: 12px;
+background: #EAE3DB;
+width: 100px;
+margin: 1vh;
+height: 60px;
+}
+#del{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-radius: 11.524px;
+background: #647299;
+}
+#reset{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-radius: 11.524px;
+background: #647299;
+width: 220px;
+}
+#equals{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-radius: 11.524px;
+background: #D13F30;
+width: 220px;
+}
+.keypad{
+    border-radius: 12px;
+background: #252D44;
+padding: 4vh 2vh;
+}
+.display{
+    border-radius: 12px;
+background: #181F32;
+margin-bottom: 3vh;
+padding: 2vh 3vh;
+color: #FFF;
+text-align: right;
+font-family: Inter;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
